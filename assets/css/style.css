@@ -51,6 +51,9 @@ hr {
 
 @media only screen and (max-width: 550px) {
     /* navbar */
+    header {
+        box-shadow: 0 2px 10px rgb(0 0 0 / 11%);
+    }
     .navbarch {
         width: 100%;
         background-color: rgb(255, 255, 255);
@@ -77,6 +80,7 @@ hr {
         display: flex;
         justify-content: space-between;
         width: 100%;
+        background-color: white;
     }
     .navtabsubch {
         width: 20%;
@@ -89,6 +93,10 @@ hr {
     }
     .navtabch img {
         height: 1.6rem;
+    }
+    /* all posts */
+    .postsch {
+        width: 100%;
     }
 }
 
