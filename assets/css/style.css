@@ -1,1 +1,103 @@
-/* css file */
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0;
+    background: rgb(245, 245, 245);
+}
+
+html {
+    box-sizing: border-box;
+    overflow-x: hidden
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit
+}
+
+html,
+body {
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: inherit;
+    /* blue colors for links too */
+    text-decoration: inherit;
+    /* no underline */
+}
+
+a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Extra small devices (phones, 0px to 550px) */
+
+@media only screen and (max-width: 550px) {
+    /* navbar */
+    .navbarch {
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 1rem;
+    }
+    .navlogoch {
+        width: 50%;
+        padding-left: 1rem;
+    }
+    .navlogoch img {
+        height: 2rem;
+    }
+    .navsearchch {
+        width: 50%;
+        text-align: end;
+        padding-right: 1.7rem;
+    }
+    .navsearchch img {
+        height: 1.2rem;
+    }
+    .navtabch {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .navtabsubch {
+        width: 20%;
+        padding: 0.7rem 0.7rem;
+        text-align: center;
+        margin-top: 0.5rem;
+    }
+    .navtabsubch:hover {
+        border-bottom: 2px solid #E41D24;
+    }
+    .navtabch img {
+        height: 1.5rem;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 550px to 850) */
+
+@media only screen and (min-width: 550px) and (max-width: 991px) {}
+
+
+/* Large devices (Desktop, 850px and up) */
+
+@media only screen and (min-width: 992px) {}
