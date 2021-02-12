@@ -146,15 +146,15 @@ hr {
         display: flex;
     }
     .pprofimgch {
-        height: 2.1rem;
-        width: 2.1rem;
+        height: 2.2rem;
+        width: 2.2rem;
         text-align: center;
         border-radius: 50%;
         margin-right: 0.7rem;
     }
     .pprofimgch img {
-        height: 2rem;
-        width: 2rem;
+        height: 2.2rem;
+        width: 2.2rem;
         border-radius: 50%;
         border: 2px solid #E41D24;
     }
@@ -170,7 +170,7 @@ hr {
         width: 100%;
     }
     .postmidchtxt {
-        padding: 1rem;
+        padding: 1.7rem;
         background-color: rgb(233, 233, 233);
     }
     .postmidchtxt p {
@@ -178,18 +178,18 @@ hr {
         margin-bottom: 0px;
     }
     .ppoption img {
-        height: 1.2rem;
-        margin-top: 5px;
+        height: 20px;
+        margin-top: 6px;
     }
     .postoptionch {
         display: flex;
         padding-left: 0.7rem;
     }
     .ppoption p {
-        font-size: 25px;
+        font-size: 30px;
         margin-bottom: 0px;
         margin-right: 7px;
-        margin-top: -2px;
+        margin-top: -6px;
     }
     .ppoption p:hover {
         color: #E41D24;
