@@ -177,6 +177,9 @@ hr {
         font-size: 14px;
         margin-bottom: 0px;
     }
+    .ppoption {
+        padding-bottom: 8px;
+    }
     .ppoption img {
         height: 20px;
         margin-top: 6px;
