@@ -140,6 +140,10 @@ hr {
     .posttopch {
         display: flex;
         padding-left: 1rem;
+        justify-content: space-between;
+    }
+    .posttopch-c {
+        display: flex;
     }
     .pprofimgch {
         height: 2.1rem;
@@ -154,11 +158,24 @@ hr {
         border-radius: 50%;
         border: 2px solid #E41D24;
     }
-    .postmidch {
+    .followuser button {
+        font-size: 14px;
+        padding: 3px;
+        margin-right: 1rem;
+    }
+    .postmidchimg {
         width: 100%;
     }
-    .postmidch img {
+    .postmidchimg img {
         width: 100%;
+    }
+    .postmidchtxt {
+        padding: 1rem;
+        background-color: rgb(233, 233, 233);
+    }
+    .postmidchtxt p {
+        font-size: 14px;
+        margin-bottom: 0px;
     }
     .ppoption img {
         height: 1.2rem;
