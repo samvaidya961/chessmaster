@@ -189,19 +189,87 @@ hr {
         display: flex;
         padding-left: 0.7rem;
     }
-    /* .ppoption p {
-        font-size: 30px;
-        margin-bottom: 0px;
-        margin-right: 7px;
-        margin-top: -6px;
-    }
-    .ppoption p:hover {
-        color: #E41D24;
-    } */
     .pprofnamech p {
         font-size: 14px;
         font-weight: 600;
         margin-top: 4px;
+    }
+    /* post create sliding div */
+    .overlay {
+        height: 0%;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        bottom: 0;
+        left: 0;
+        background-color: white;
+        overflow-y: hidden;
+        transition: 0.3s;
+    }
+    .overlay a {
+        text-decoration: none;
+        color: #222222;
+        display: block;
+        transition: 0.3s;
+    }
+    .overlay .closebtn {
+        font-size: 25px;
+        left: 1rem;
+        top: -10px;
+    }
+    .overlay-top-section {
+        display: flex;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid rgb(216, 216, 216);
+        padding-left: 0.8rem;
+        padding-top: 0.3rem;
+    }
+    .overlay-top-section button {
+        font-size: 14px;
+        background-color: #E41D24;
+        border-radius: 3px;
+        color: white;
+        width: 4rem;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        right: 0.7rem;
+        margin-top: 5px;
+        position: absolute;
+    }
+    .overlay-top-section button:hover {
+        background-color: #e41d24d0;
+        color: white;
+    }
+    .createpost-txt .form-control {
+        padding: 1rem;
+        color: #222222;
+        font-size: 15px;
+        border: none;
+        margin: 3%;
+        width: 94%;
+        height: 3rem;
+    }
+    .createpost-attach {
+        width: 100%;
+        position: absolute;
+        bottom: 0px;
+        border-top: 1px solid rgb(216, 216, 216);
+        padding: 0.8rem;
+    }
+    .createpost-attach {
+        display: flex;
+        justify-content: space-between;
+    }
+    .item-attach p {
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+    .item-attach1 {
+        display: flex;
+    }
+    .item-attach1 .itemat img {
+        height: 1.4rem;
+        margin-left: 8px;
     }
 }
 
