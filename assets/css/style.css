@@ -247,7 +247,8 @@ hr {
         border: none;
         margin: 3%;
         width: 94%;
-        height: 3rem;
+        height: 80vh;
+        text-align: start;
     }
     .createpost-attach {
         width: 100%;
